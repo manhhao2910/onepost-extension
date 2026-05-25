@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OnePost – Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">
+    <span class="logo-icon">◈</span>
+    <span class="logo-text">OnePost</span>
+  </div>
+  <div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+    <a href="index.html" style="font-size:12px; color:var(--muted);">← User Guide</a>
+    <div class="lang-switch">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('vi')">VI</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero" style="text-align:left; margin-bottom:36px;">
+    <h1 lang-en style="font-family:'Syne',sans-serif; font-size:32px; font-weight:800;">Privacy Policy</h1>
+    <h1 lang-vi style="display:none; font-family:'Syne',sans-serif; font-size:32px; font-weight:800;">Chính sách quyền riêng tư</h1>
+    <p lang-en style="color:var(--muted); font-size:13px; margin-top:8px;">Last updated: June 2025</p>
+    <p lang-vi style="display:none; color:var(--muted); font-size:13px; margin-top:8px;">Cập nhật lần cuối: Tháng 6 năm 2025</p>
+  </div>
+
+  <div class="section">
+    <h2 lang-en>No Data Collection</h2>
+    <h2 lang-vi style="display:none">Không thu thập dữ liệu</h2>
+    <p lang-en>OnePost does not collect, transmit, or share any personal data. The extension operates entirely within your browser.</p>
+    <p lang-vi style="display:none">OnePost không thu thập, truyền tải hoặc chia sẻ bất kỳ dữ liệu cá nhân nào. Tiện ích hoạt động hoàn toàn trong trình duyệt của bạn.</p>
+  </div>
+
+  <div class="section">
+    <h2 lang-en>What Is Stored Locally</h2>
+    <h2 lang-vi style="display:none">Dữ liệu lưu trữ cục bộ</h2>
+    <p lang-en>OnePost uses <code>chrome.storage.local</code> to save the following on your device only:</p>
+    <p lang-vi style="display:none">OnePost sử dụng <code>chrome.storage.local</code> để lưu trữ các thông tin sau chỉ trên thiết bị của bạn:</p>
+    <ul style="margin-top:12px; padding-left:20px; color:var(--muted); font-size:13px; line-height:2;">
+      <li lang-en>The Google Docs URL you enter</li>
+      <li lang-vi style="display:none">URL Google Docs bạn nhập</li>
+      <li lang-en>The image URL you enter (optional)</li>
+      <li lang-vi style="display:none">URL ảnh bạn nhập (tùy chọn)</li>
+      <li lang-en>The fill status results from the last session</li>
+      <li lang-vi style="display:none">Kết quả trạng thái điền từ phiên làm việc gần nhất</li>
+    </ul>
+    <div class="tip" style="margin-top:16px;">
+      <span lang-en>This data never leaves your device. It is deleted when you click the <strong>Clear</strong> button.</span>
+      <span lang-vi style="display:none">Dữ liệu này không bao giờ rời khỏi thiết bị của bạn. Nó sẽ bị xóa khi bạn nhấn nút <strong>Clear</strong>.</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 lang-en>Google Docs Access</h2>
+    <h2 lang-vi style="display:none">Truy cập Google Docs</h2>
+    <p lang-en>OnePost fetches your document using Google's standard export endpoint (<code>docs.google.com/export</code>). This is the same request your browser makes when you export a document manually. The content is used only to fill your publisher tabs and is not stored beyond the current session.</p>
+    <p lang-vi style="display:none">OnePost tải tài liệu của bạn qua endpoint xuất chuẩn của Google (<code>docs.google.com/export</code>). Đây là yêu cầu tương tự mà trình duyệt của bạn thực hiện khi bạn xuất tài liệu thủ công. Nội dung chỉ được dùng để điền vào các tab nền tảng và không được lưu trữ sau phiên làm việc.</p>
+  </div>
+
+  <div class="section">
+    <h2 lang-en>Third Parties</h2>
+    <h2 lang-vi style="display:none">Bên thứ ba</h2>
+    <p lang-en>OnePost does not use any analytics, advertising, or tracking services. No data is sold or shared with any third party under any circumstances.</p>
+    <p lang-vi style="display:none">OnePost không sử dụng bất kỳ dịch vụ phân tích, quảng cáo hay theo dõi nào. Không có dữ liệu nào được bán hoặc chia sẻ với bên thứ ba trong bất kỳ trường hợp nào.</p>
+  </div>
+
+  <div class="section">
+    <h2 lang-en>Contact</h2>
+    <h2 lang-vi style="display:none">Liên hệ</h2>
+    <p lang-en>If you have any questions about this privacy policy, please open an issue on our GitHub repository.</p>
+    <p lang-vi style="display:none">Nếu bạn có bất kỳ câu hỏi nào về chính sách quyền riêng tư này, vui lòng tạo issue trên kho GitHub của chúng tôi.</p>
+  </div>
+
+</main>
+
+<footer>
+  <span lang-en>© 2025 LMH Software · <a href="index.html">User Guide</a></span>
+  <span lang-vi style="display:none">© 2025 LMH Software · <a href="index.html">Hướng dẫn sử dụng</a></span>
+</footer>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[lang-en]').forEach(el => el.style.display = lang === 'en' ? '' : 'none');
+  document.querySelectorAll('[lang-vi]').forEach(el => el.style.display = lang === 'vi' ? '' : 'none');
+  document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelector(`.lang-btn[onclick="setLang('${lang}')"]`).classList.add('active');
+}
+</script>
+
+</body>
+</html>
