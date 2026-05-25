@@ -9,7 +9,10 @@
   --muted: #6b6c70;
   --radius: 8px;
 }
-
+[lang-vi] h1 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 800;
+}
 body {
   background: var(--bg);
   color: var(--text);
